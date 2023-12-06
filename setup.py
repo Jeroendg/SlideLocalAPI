@@ -9,7 +9,7 @@ with open('README.pypi') as f:
 
 setuptools.setup(
     name='SlideLocalAPI',
-    version='0.2.2',
+    version='0.2.4',
     url='https://github.com/Jeroendg/SlideLocalAPI/',
     license='GPL-3.0',
     author='Jeroen De Gendt',
@@ -26,7 +26,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
-        'License :: OSI Approved :: GPL-3.0',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',
     ],
 )
