@@ -60,7 +60,7 @@ class LocalSlide(CoverEntity):
         return {
             "identifiers": {(DOMAIN, self._cover.curtain_id)},
             # If desired, the name for the device could be different to the entity
-            "name": self.name,
+            "name": "Slide",
             "manufacturer": self._cover.hub.manufacturer,
         }
 
